@@ -1,0 +1,26 @@
+# Suppress warnings
+# (built-in, no need to install)
+
+# Standard libraries
+# os, math (built-in, no need to install)
+
+# Data manipulation & analysis
+pandas>=1.5.0
+numpy>=1.25.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pylab>=0.1.0  # note: pylab is usually part of matplotlib
+
+# Statistics
+scipy>=1.11.0
+
+# Scikit-learn (ML tools & evaluation)
+scikit-learn>=1.3.0
+
+# XGBoost
+xgboost>=1.7.0
+
+# TensorFlow / Keras (Deep Learning)
+tensorflow>=2.15.0
