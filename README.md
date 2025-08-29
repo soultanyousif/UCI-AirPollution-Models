@@ -10,10 +10,8 @@ It focuses on predicting air pollution levels based on environmental factors and
 ## 🗂 Dataset
 - **Source:** [UCI AirQuality Dataset](https://archive.ics.uci.edu/ml/datasets/air+quality)  
 - **Description:** Contains hourly averaged responses from an array of gas sensors deployed in an Italian city.  
-- **Features:**  
-  - CO, NOx, NO2 concentrations  
-  - Temperature, humidity, and other environmental variables  
-- **Target:** Predict air pollution (e.g., CO concentration or another selected pollutant)
+- **Features:**  Date	, Time	, PT08.S1(CO) ,	NMHC(GT)	, C6H6(GT)	, PT08.S2(NMHC) ,	NOx(GT)	, PT08.S3(NOx) , 	PT08.S4(NO2),	PT08.S5(O3)	,T	,RH	,AH	,Unnamed: 15,	Unnamed: 16 
+- **Target:** Predict air pollution (e.g., COGT & NO2GT)
 
 ---
 
